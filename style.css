@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: "Coda", system-ui;
+  color: rgb(49, 54, 63);
+  line-height: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: rgb(118, 171, 174);
+  font-family: "Agdasima", sans-serif;
+  font-size: 40px;
+  line-height: 15px;
+
+}
+
+p {
+  line-height: normal;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i {
+  font-size: 40px;
+}
+
+a {
+  color: rgb(49, 54, 63);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  color: rgb(118, 171, 174);
+}
+
+button {
+  padding: 8px 16px;
+  background: rgb(118, 171, 174);
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#img_circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+ul>li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
